@@ -1,0 +1,112 @@
+body,
+html {
+  background-color: rgb(36, 36, 36);
+  color: beige;
+  height: 100%;
+  margin: 0px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+#main {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+
+input,
+#get-weather-button {
+  font-size: 18px;
+  padding: 10px;
+  padding-block: 15px;
+  border-radius: 6px;
+}
+
+input {
+  border: none;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+input:focus-visible {
+  outline: none;
+  box-shadow: 0px 0px 10px rgba(183, 183, 183, 0.7); /* Add a shadow effect */
+}
+
+#get-weather-button {
+  padding-inline: 200px;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: flex;
+}
+
+#details {
+  flex-direction: column;
+  width: 500px;
+  height: 300px;
+  padding-block: 8px;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(59, 59, 14);
+  border-radius: 20px;
+}
+
+#details-2 {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+#details-2 > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#details-2 h3 {
+  padding: 0px;
+  margin: 0px;
+  font-size: 22px;
+}
+
+#temp {
+  font-size: 70px;
+}
+#location {
+  font-size: 25px;
+}
+
+#condition {
+  font-size: 18px;
+  font-weight: 100;
+}
